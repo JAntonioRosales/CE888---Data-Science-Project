@@ -1,1 +1,1 @@
-This folder is where the codes for each lab will be uploaded.
+In this folder I'll be uploading each lab's code.
