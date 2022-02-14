@@ -1,6 +1,6 @@
 In this folder I'll be documenting my Data Science project.
 
-Topic: Imbalanced Datasets
+# Topic: Imbalanced Datasets
 
 Project description: stay tuned...
 
