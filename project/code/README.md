@@ -7,7 +7,7 @@ I used Google Colab to edit these files. To use them simply click open them and 
 Each notebook contains three sections:
 1. Description
    
-This bit will explain the purpose of the dataset, the list of features it contains, and where the dataset comes from (the Kaggle links are provided inside the notebook, but you can also find the datasets in the previous folder ;) ~/project/datasets).
+This bit will explain the purpose of the dataset, the list of features it contains, and where the dataset comes from (the Kaggle links are provided inside the notebook, but you can also find the datasets and links in the previous folder ;) ~/project/datasets).
 
 2. Data exploration and visualization
 
