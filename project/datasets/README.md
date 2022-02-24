@@ -1,12 +1,19 @@
-These three datasets will be used throughout the project.
+# Datasets
 
-1. Song likeability in spotify
-2. Wine quality
-3. Passenger flight satisfaction
+You have found the three chosen datasets we use for our study!
 
-Note that only the last one has separated training and testing data.
+These are already loaded onto the Jupyter Notebooks in the code folder (~/project/code), but you can also download them.
 
-These were obtained from:
-1. https://www.kaggle.com/geomack/spotifyclassification
-2. https://www.kaggle.com/nareshbhat/wine-quality-binary-classification
-3. https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction?select=train.csv
+1. Song Likeability
+
+This dataset was made available by George McIntire in Kaggle (https://www.kaggle.com/geomack/spotifyclassification).
+
+2. Wine Quality
+
+This dataset was made available by Naresh Bhat in Kaggle (https://www.kaggle.com/nareshbhat/wine-quality-binary-classification).
+
+3. Passenger Satisfaction
+
+This dataset was made available by TJ Klein in Kaggle (https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction?select=train.csv).
+
+Note that only this last one has already separated training and testing data.
