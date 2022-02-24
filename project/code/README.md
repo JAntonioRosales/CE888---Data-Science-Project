@@ -1,10 +1,8 @@
 # Code
 
-The exploration and preprocessing for each dataset was done in Jupyter Notebooks through Google Colab.
+You have found the Jupyter Notebooks I used to explore and preprocessing each dataset!
 
-You can find the notebooks in this folder.
-
-To use them simply click them, and then click the "Open in Colab" button, at the top left corner.
+I used Google Colab to edit these files. To use them simply click open them and then click the "Open in Colab" button, at the top left corner.
 
 Each notebook contains three sections:
 1. Description
