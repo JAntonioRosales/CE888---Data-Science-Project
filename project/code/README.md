@@ -2,7 +2,7 @@
 
 You have found the Jupyter Notebooks I used to explore and preprocess each dataset!
 
-I used Google Colab to edit these files. To use them simply click open them and then click the "Open in Colab" button, at the top left corner.
+Feel free to run them and analyze what they do. I used Google Colab to edit these files. To use them simply click open them and then click the "Open in Colab" button, at the top left corner.
 
 Each notebook contains three sections:
 1. Description
