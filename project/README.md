@@ -28,4 +28,4 @@ The datasets used are in the "datasets" folder.
 
 #### The code
 
-The notebooks used to explore and preprocess the datasets are in the "code" folder.
+The notebooks and utilities script used throughout the project are in the "code" folder.
