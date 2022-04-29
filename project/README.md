@@ -12,11 +12,11 @@ In this project we develop and analyze the performance of a clustering approach 
 
 ## Project structure
 
-### Task 1
+### Task 1 - 'Should imbalanced datasets be "fixed"?'
 
 Three originally balanced classification datasets were found on Kaggle. Each one of them had different feature characteristics: one was fully numerical, a second was mostly categorical, and the third was a combination of both types of features. These were explored, preprocessed and cleaned. Later on, each one was used to create three imbalanced surrogates, showing low (65%), medium (75%) and high (90%) imbalances. Finally, they were split into training and testing.
 
-### Task 2
+### Task 2 - Evaluation of a clustering algorithm for imbalanced datasets
 
 This part of the project saw the actual development and analysis of the algorithm.
 
