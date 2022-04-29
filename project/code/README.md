@@ -24,8 +24,18 @@ This last part creates the imbalanced surrogates for each dataset and splits the
 
 #### 1. Scaling and baseline
 
-Write here...
+In this section the original sets and surrogates are scaled, and a Random Forest outputs a baseline score using 10-fold cross-validation for each set.
 
 #### 2. Algorithm
 
-Write here....
+This final section performs a manual gridsearch on each set to suggest a number of components (for PCA) and clusters (for K-Means). These parameters are visualized with a grid of Principal Components plotted against each other and an Elbow and Silhouette plot. Each dataset is then split into 10 stratified folds and the algorithm is run for each of these 10 iterations, and the full training and testing sets are passed one more time to output the generalization score. Finally, the inbalance within clusters is visualized.
+
+### The utilities script
+
+The `imb_utils.py` script contains several routines used multiple times throughout the notebooks, and it has to be loaded so the lines are executed. To do so...
+1. Download the file to your computer.
+2. Drop the file onto your Google Drive and store its path.
+3. Pase the path in the 
+
+> # Importing utility routines developed for the project
+> !cp /content/drive/MyDrive/UNIVERSITY-OF-ESSEX/CE888-DataScience/Assignment/imb_utils.py /content
