@@ -1,1 +1,1 @@
-In this folder I'll be uploading the code from each week's lab.
+This folder contains the Google Colab notebooks from each week's lab.
