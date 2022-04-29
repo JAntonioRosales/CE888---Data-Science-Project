@@ -16,4 +16,4 @@ This dataset was made available by Naresh Bhat in Kaggle (https://www.kaggle.com
 
 This dataset was made available by TJ Klein in Kaggle (https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction?select=train.csv).
 
-Note that only this last one has already separated training and testing data.
+Note that only this last one has already separated training and testing datasets.
