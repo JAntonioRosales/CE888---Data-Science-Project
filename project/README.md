@@ -2,30 +2,37 @@
 
 ## 'Should imbalanced datasets be "fixed"?'
 
-An "imbalanced dataset" is one that contains many more samples for one class than it does for others. They are found in many real-world applications including medical diagnosis, fraud detection, text classification, to mention a few.
+An "imbalanced dataset" is one that contains many more samples for one class than it does for others. They are found in many real-world applications including medical diagnosis, fraud detection, and text classification, to mention a few.
 
-Even though they are pretty common, popular classification techniques and evaluation metrics perform poorly. Several alternatives have been proposed to "fix" or balance them, including oversampling the minority class, under-sampling the majority class, and modifying the cost of predicting classes in algorithms.
+Even though they are pretty common, popular classification techniques and evaluation metrics perform poorly. Several alternatives have been proposed to "fix" or balance them, including oversampling the minority class, under-sampling the majority class, and modifying existing algorithms or proposing new ones.
 
 ## Project description
 
-In this project, we propose and analyze the performance of a method based on clustering an imbalanced dataset. What is expected is for these clusters to be composed exclusively of one class, or having a greater balance between classes, making it easier to train classifiers and predicting unseen samples correctly.
+In this project we develop and analyze the performance of a clustering approach to classify imbalanced datasets. We expect this clustering to separate groups where their class distribution is either more balanced, or exclusively one class, making it easier to train classifiers. The F1 score is used throughout the project as the evaluating metric.
 
 ## Project structure
 
-### Part 1
+### Task 1
 
-Three different, and initially balanced, classification datasets were found on Kaggle. These were explored, preprocessed and cleaned. Later on, each one was used to create three imbalanced surrogates, showing low (65%), medium (75%) and high (90%) imbalance. Finally, they were split into training and testing.
+Three originally balanced classification datasets were found on Kaggle. Each one of them had different feature characteristics: one was fully numerical, a second was mostly categorical, and the third was a combination of both types of features. These were explored, preprocessed and cleaned. Later on, each one was used to create three imbalanced surrogates, showing low (65%), medium (75%) and high (90%) imbalances. Finally, they were split into training and testing.
 
-### Part 2
+### Task 2
 
-The second part of the project will see the actual training and analysis of the algorithm.
+This part of the project saw the actual development and analysis of the algorithm.
 
-A baseline Random Forest will be trained. The features will them be scaled and selected using PCA. 10 stratified folds will be generated and 9 will be used to find the number of clusters of the dataset using the Elbow and Silhouette methods. K-Means will then be run to generate the clusters, hoping to have groups with either one class or a more balanced target distribution. In the second case, a Random Forest will be trained. New samples will be assigned to their nearest cluster, and will be labeled as the only class, or predicted by the trained Random Forest. This will be repeated for each permutation of the 10 folds. Finally, this method will be compared to the baseline model and basic re-sampling techniques using F-Measure as evaluation metric and permutation tests to determine if this approach is better for the classification of imbalanced datasets than trying to artificially balance them.
+Each dataset was scaled to standardize continuous numerical values and normalize discrete numerical ones. They were they cross-validated with 10 folds using a Random Forest (RF) classifier to establish a baseline score. Before performing the algorithm, each dataset was passed to a manual grid search to find a good number of components (for PCA) and clusters (for K-Means). To analyze the search's suggested parameters, an Elbow and Silhouette plot and a grid of Principal Components plotted against each other were generated.
+
+To test the algorithm consisted of the following steps...
+
+Using the suggested components and clusters, the training set was transformed with PCA and clustered with K-Means. The grouping prediction was used to isolate samples, store their label imbalance, and a trained classifier. This classifier was a numerical value, if all the samples in a cluster only had one label, or a trained RF, if they had mixed labels. The test set then followed the
+same transformation and clustering, its samples were isolated and the corresponding classifiers retrieved to predict a label. All testing clusters were then joined to calculate the F1 score.
+
+To test it, each training dataset was first divided into 10 stratified folds and fed to the model in 10 iterations of training and validation. Finally, the full training and testing sets were passed to the algorithm, plotting the imbalance in their clusters.
 
 #### The datasets
 
-The datasets used are in the "datasets" folder.
+The used datasets are located in the "datasets" folder.
 
 #### The code
 
-The notebooks and utilities script used throughout the project are in the "code" folder.
+The notebooks and utility script used throughout the project are located in the "code" folder.
