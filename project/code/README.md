@@ -33,9 +33,14 @@ This final section performs a manual gridsearch on each set to suggest a number 
 ### The utilities script
 
 The `imb_utils.py` script contains several routines used multiple times throughout the notebooks, and it has to be loaded so the lines are executed. To do so...
+
 1. Download the file to your computer.
 2. Drop the file onto your Google Drive and store its path.
-3. Pase the path in the 
+3. Paste the path in the notebook's following line: `!cp /content/drive/YOUR_PATH/imb_utils.py /content`
+4. Run `import imb_utils` in the notebook.
 
-> # Importing utility routines developed for the project
-> !cp /content/drive/MyDrive/UNIVERSITY-OF-ESSEX/CE888-DataScience/Assignment/imb_utils.py /content
+If there is a problem with step 3...
+1. Open the *Files* tab on the top left corner of the notebook.
+2. Drag and drop the script there.
+
+(This would have to be done every time the notebook connects)
