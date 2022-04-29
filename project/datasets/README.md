@@ -1,8 +1,8 @@
 # Datasets
 
-You have found the three chosen datasets we use for our study!
+These are the three datasets used in our study.
 
-These are already loaded onto the Jupyter Notebooks in the code folder (~/project/code), but you can also download them.
+They are already loaded onto the Jupyter Notebooks in the code folder (~/project/code), but here are the links for each one of them.
 
 1. Song Likeability
 
