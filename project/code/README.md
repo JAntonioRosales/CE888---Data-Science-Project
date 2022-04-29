@@ -6,7 +6,7 @@ Feel free to run them and analyze what they do. I used Google Colab to edit thes
 
 Each notebook contains two main sections:
 
-#### Task 1
+### Task 1
 
 1. Description
    
@@ -20,7 +20,7 @@ This part deals with the loading and preprocessing of the data; i.e., encoding t
 
 This last part creates the imbalanced surrogates for each dataset and splits them into training and testing.
 
-#### Task 2
+### Task 2
 
 1. Scaling and baseline
 
