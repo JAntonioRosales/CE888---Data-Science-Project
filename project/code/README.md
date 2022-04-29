@@ -36,7 +36,7 @@ The `imb_utils.py` script contains several routines used multiple times througho
 
 1. Download the file to your computer.
 2. Drop the file onto your Google Drive and store its path.
-3. Paste the path in the notebook's following line: `!cp /content/drive/YOUR_PATH/imb_utils.py /content`
+3. Paste the path in the notebook's following line `!cp /content/drive/YOUR_PATH/imb_utils.py /content` and run it.
 4. Run `import imb_utils` in the notebook.
 
 If there is a problem with step 3...
