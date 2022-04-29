@@ -41,5 +41,4 @@ The `imb_utils.py` script contains several routines used multiple times througho
 
 If there is a problem with step 3...
 1. Open the *Files* tab on the top left corner of the notebook.
-2. Drag and drop the script there.
-(This would have to be done every time the notebook connects)
+2. Drag and drop the script there (this would have to be done every time the notebook connects).
