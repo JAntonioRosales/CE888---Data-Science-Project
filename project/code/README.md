@@ -6,16 +6,18 @@ Feel free to run them and analyze what they do. I used Google Colab to edit thes
 
 Each notebook contains two main sections:
 
-1. Task 1
+#### Task 1
 
-  1. Description
+1. Description
    
-   This bit will explain the purpose of the dataset, the list of features it contains, and where the dataset comes from (the Kaggle links are provided inside the notebook, but you can also find the datasets and links in the previous folder ;) ~/project/datasets).
+This bit will explain the purpose of the dataset, the list of features it contains, and where the dataset comes from (the Kaggle links are provided inside the notebook, but you can also find the datasets and links in the previous folder ;) ~/project/datasets).
 
-   2. Data exploration and visualization
+2. Data exploration and visualization
 
-   This part deals with the loading and preprocessing of the data; i.e., encoding the label, encoding categorical values, dropping useless features and missing values, plotting feature histograms and target distributions, etc.
+This part deals with the loading and preprocessing of the data; i.e., encoding the label, encoding categorical values, dropping useless features and missing values, plotting feature histograms and target distributions, etc.
 
-   3. Surrogates and splitting
+3. Surrogates and splitting
 
-   This last part creates the imbalanced surrogates for each dataset and splits them into training and testing.
+This last part creates the imbalanced surrogates for each dataset and splits them into training and testing.
+
+#### Task 2
